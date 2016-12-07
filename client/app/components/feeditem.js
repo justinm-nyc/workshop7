@@ -48,7 +48,7 @@ export default class FeedItem extends React.Component {
     var likeCounter = this.state.likeCounter;
     var liked = false;
     for (var i = 0; i < likeCounter.length; i++) {
-      if (likeCounter[i]._id === 4) {
+      if (likeCounter[i]._id === "000000000000000000000004") {
         liked = true;
         break;
       }

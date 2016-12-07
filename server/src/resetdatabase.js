@@ -45,7 +45,7 @@ var initialData = {
       "type": "statusUpdate",
       "contents": {
         // ID of the user that posted the status update.
-        "author": 1,
+        "author": new ObjectID("000000000000000000000001"),
         // 01/24/16 3:48PM EST, converted to Unix Time
         // (# of milliseconds since Jan 1 1970 UTC)
         // https://en.wikipedia.org/wiki/Unix_time
@@ -57,7 +57,7 @@ var initialData = {
       "comments": [
         {
           // The author of the comment.
-          "author": 2,
+          "author": new ObjectID("000000000000000000000002"),
           // The contents of the comment.
           "contents": "hope everything is ok!",
           // The date the comment was posted.
@@ -66,7 +66,7 @@ var initialData = {
           "likeCounter": []
         },
         {
-          "author": 3,
+          "author": new ObjectID("000000000000000000000003"),
           "contents": "sending hugs your way",
           "postDate": 1453690800000,
           "likeCounter": []
@@ -78,7 +78,7 @@ var initialData = {
       "likeCounter": [],
       "type": "statusUpdate",
       "contents": {
-        "author": 4,
+        "author": new ObjectID("000000000000000000000004"),
         "postDate": 1458231460117,
         "location": "Philadelphia, PA",
         "contents": "You can now edit and delete status updates!\nGo ahead and click the caret in the corner of the post."
